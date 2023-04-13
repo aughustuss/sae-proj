@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+}
+
+@media screen and(max-width: 768px){
+    .choice-container{
+        min-width: 40rem;
+    }
+}
+
+
+
+li>a{
+    padding: 7px;
+}
+li>a:hover{
+    background-color: #2f302f;
+    transform: scale(1.1);
+    transition: 0.2s;
+    border-radius: 5px;
+}
+ul.putaquepariu>li>button{
+    background: none;
+    width: 100%;
+    border: none;
+}
+ul.putaquepariu>li>button:hover{
+    background-color: #2f302f;
+    transform: scale(1.1);
+    transition: 0.2s;
+    border-radius: none;
+}
+
+.choice-container{
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 50%;
+    border-radius:4px ;
+    border: white 1px solid;
+    background: black;
+    font-size: 2rem;
+    min-width: 60rem;
+    color: #43c759;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(104, 209, 127, 0.521);
+    transform: scale(1.02);
+    transition: transform 100ms;
+}
+
+.choice-prefix{
+    padding: 2rem 2.5rem;
+    color: white;
+}
+
+.choice-text{
+    padding: 2rem;
+    width: 80%;
+}
+
+.correct{
+    background-color: rgba(11, 223, 36);
+    color: white;
+}
+
+.incorrect{
+    background-color: rgba(230, 29, 29, 1);
+}
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix{
+    text-align:center;
+    font-size: 2rem;
+}
+
+.hud-main-text{
+    text-align: center;
+}
+
+#progressBar{
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid #43c759;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 2rem;
+
+}
+
+#progressBarFull{
+    height: 100%;
+    background-color: #43c759;
+    width: 0%;
+}

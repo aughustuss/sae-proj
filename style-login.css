@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&display=swap');
+
+body{
+    background: rgb(26, 25, 25);
+    font-family: 'Fira Mono', monospace;
+    height: 100%; 
+}
+
+.login-container{
+    box-shadow: 1px 2px 15px 5px rgb(36, 36, 36);
+    background-color: black;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 7vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+label,input{
+    display: block;
+    width: 100%;
+    text-align: left;
+    
+}
+
+label{
+    font-weight: bold;
+    font-size: .9rem;
+    color: #43c759;
+}
+
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+textarea:focus, input{
+    outline: none;
+
+}
+input:focus{
+    border-bottom: 2px solid #43c759;;
+}
+
+#forgot-pass{
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:none;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 30px;
+    color: white;
+    background: rgb(48, 47, 47);
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    color: #43c759;
+    background: #161616;
+    transition: .5s;
+}
+
+textarea:focus, select{
+    border: none;
+}
+
+
+
+
+select:focus{
+    border: none;
+}

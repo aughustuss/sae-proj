@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-login.css">
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+<body style="background-color: black; color: white; font-family: 'Squada one', cursive;">
+    <div class="login-container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h6 id="end-text" style="color: #43c759;">Escreve um nome que tu quer aí</h6>
+                <input type="text" name="name" id="username" placeholder="Escreva seu nome de usuário">
+                <button style="border: white 1px solid; display: block; width: 100%; padding: 10px; margin-top: 7px;color: white;" class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Salvar</button>
+                <a style="display:block; color: white; border: 1px solid white; padding: 10px; margin-top: 7px;"href="quiz.html" class="btn">Jogar de novo e pegar mais uns pontinhos >:)</a>
+                <a style="display: block; color: white; border: 1px solid white; padding: 10px; margin-top: 7px;" href="index.html" class="btn"> Não quero mais esses pontos <i class="fas fa-home"></i></a>
+        </div>
+            </form>
+        
+    </div>
+    <script src="end.js"></script>
+</body>
+</html>
