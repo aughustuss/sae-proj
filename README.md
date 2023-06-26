@@ -6,7 +6,7 @@ Uma aplicação feita em um projeto da faculdade que trata de um Quiz com 5 perg
 
 ## Stack utilizada
 
-**Front-end:** JavaScript vanilla, HTML puro e CSS puro.
+**Front-end:** JavaScript vanilla, HTML puro, CSS puro e Bootstrap.
 
 
 
